@@ -1,0 +1,180 @@
+/* Genereated css file */
+
+/* === Imports === */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* === Base Styles === */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fffbee;
+  color: #4b3d2a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+}
+
+/* === Navigation Bar === */
+#siteHeader {
+  background-color: #ffdd57;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  border-radius: 0 0 20px 20px;
+}
+
+#siteHeader ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#siteHeader li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#siteHeader a {
+  text-decoration: none;
+  color: #4b3d2a;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+  border-radius: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#siteHeader a:hover {
+  background-color: #f4c430;
+  transform: scale(1.05);
+}
+
+/* === Chart Controls === */
+.chart-controls {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff4c1;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* === Labels and Inputs === */
+.chart-controls label {
+  font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+  color: #3c2d1a;
+}
+
+.chart-controls input[type="date"],
+.chart-controls select,
+.chart-controls button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  border: 2px solid #f4c430;
+  border-radius: 12px;
+  background-color: #fffef5;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.chart-controls button {
+  background-color: #ffca28;
+  color: #4b3d2a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chart-controls button:hover {
+  background-color: #f4b400;
+}
+
+/* === Dropdown Styling === */
+select {
+  appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D'14'%20height%3D'10'%20viewBox%3D'0%200%2014%2010'%20xmlns%3D'http://www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M1%201l6%206%206-6'%20stroke%3D'%234b3d2a'%20stroke-width%3D'2'%20fill%3D'none'%20/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px 10px;
+}
+
+/* === Checkbox Section === */
+.data-type-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.data-type-checkboxes label {
+  flex: 1 1 45%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff7d0;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #f4c430;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.05);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.data-type-checkboxes input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #f4c430;
+  border-radius: 4px;
+}
+
+.data-type-checkboxes label:hover {
+  background-color: #ffe985;
+}
+
+/* === Feedback & Info === */
+#dateRangeMessage {
+  font-size: 0.9rem;
+  color: #6a5e42;
+  margin-top: 0.5rem;
+}
+
+#errorMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* === Chart Display === */
+#chartDiv {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+/* === Loading Spinner === */
+#loadingIndicator {
+  display: block;
+  margin: 1rem auto;
+  height: 60px;
+}
+
+/* === Text Blocks === */
+p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2rem;
+  background-color: #fff3b0;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
