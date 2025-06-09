@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
  */
 async function fetchMetrics (beehiveName, metric, startDate, endDate) {
   try {
-    const response = await fetch(`/WT2/metrics/${beehiveName}/${metric}?startDate=${startDate}&endDate=${endDate}`)
+    const response = await fetch(`/beehive-visualization/metrics/${beehiveName}/${metric}?startDate=${startDate}&endDate=${endDate}`)
     const data = await response.json()
     return { metric, data }
   } catch (error) {

@@ -13,7 +13,7 @@ dotenv.config()
 try {
   const app = express()
   const PORT = process.env.PORT || 8000
-  const BASE_URL = process.env.BASE_URL || '/WT2'
+  const BASE_URL = process.env.BASE_URL || '/beehive-visualization'
 
   const directoryFullName = dirname(fileURLToPath(import.meta.url))
   app.use(BASE_URL, express.static(join(directoryFullName, '..', 'public')))
