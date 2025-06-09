@@ -2,6 +2,10 @@
 
 This project is a interactive data visualization web application built with Node.js and Express. It connects to [ElasticSearch](https://www.elastic.co/elasticsearch) and [Kibana](https://www.elastic.co/kibana) to fetch and display historical beehive data.
 
+## Demo
+
+[Demo](Beehive%20Visualization%20demo.mp4)
+
 ## Features
 
 - Select a beehive and view its data over time
